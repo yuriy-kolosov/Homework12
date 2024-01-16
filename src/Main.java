@@ -21,5 +21,21 @@ public class Main {
         System.out.println("Автор: " + johnSteinbeck.getName() + " " + johnSteinbeck.getLastName());
         System.out.println("Наименование: " + theGrapesOfWrath.getName());
         System.out.println("Год издания: " + theGrapesOfWrath.getYearPublication());
+        System.out.println();
+
+        System.out.println("         Проверка 2 - новый год издания");
+        System.out.println();
+
+        System.out.println("            Книга 1");
+        loveOfLife.setYearPublication(1907);
+        System.out.println("Автор: " + jackLondon.getName() + " " + jackLondon.getLastName());
+        System.out.println("Наименование: " + loveOfLife.getName());
+        System.out.println("Год издания: " + loveOfLife.getYearPublication());
+        System.out.println();
+        System.out.println("            Книга 2");
+        theGrapesOfWrath.setYearPublication(1940);
+        System.out.println("Автор: " + johnSteinbeck.getName() + " " + johnSteinbeck.getLastName());
+        System.out.println("Наименование: " + theGrapesOfWrath.getName());
+        System.out.println("Год издания: " + theGrapesOfWrath.getYearPublication());
     }
 }
